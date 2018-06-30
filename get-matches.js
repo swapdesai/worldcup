@@ -45,7 +45,7 @@ exports.handler = (event, context, callback) => {
       // Prepared Statements
       var matchesScanningParams = {
         TableName: 'Matches',
-        Limit: 49,
+        Limit: 64,
         KeyConditionExpression: '#year = :year',
         ExpressionAttributeNames: {
           '#year': 'year',
